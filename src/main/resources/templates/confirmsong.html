@@ -5,6 +5,12 @@
     <title>Title</title>
 </head>
 <body>
+    <p th:inline="text">
+        The song name was [[${song.name}]]</br>
+        The artist name is [[${song.artist}]]</br>
+        The artist name is [[${song.album}]]</br>
+        The rating was  [[${song.rating}]] and the year it came out on was [[${song.year}]]</br>
 
+    </p>
 </body>
 </html>
